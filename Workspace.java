@@ -323,10 +323,9 @@ public class Workspace extends AppWorkspaceComponent {
         if (type.equals("parent")) {
             Polygon diamond = new Polygon();
             diamond.getPoints().addAll(new Double[]{
-                5.0, 0.0,
-                0.0, 7.0,
-                5.0, 14.0,
-                10.0, 7.0
+                5.0, 10.0,
+                0.0, 0.0,
+                10.0, 0.0
             });
             diamond.setFill(Color.WHITE);
             diamond.setStroke(Color.BLACK);
@@ -346,10 +345,10 @@ public class Workspace extends AppWorkspaceComponent {
             //variables
             Polygon triangle = new Polygon();
             triangle.getPoints().addAll(new Double[]{
-                5.0, 10.0,
-                0.0, 0.0,
-                10.0, 0.0
-
+                5.0, 0.0,
+                0.0, 7.0,
+                5.0, 14.0,
+                10.0, 7.0
             });
             triangle.setFill(Color.WHITE);
             triangle.setStroke(Color.BLACK);

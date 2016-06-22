@@ -84,7 +84,7 @@
 }
 
 .hbox_variable_header {
-    -fx-background-color: #E9EFF2;
+    -fx-background-color: #EBF2F7;
     -fx-padding: 5px;
     -fx-font-size: 11pt;
     -fx-border-width: 1px;
@@ -92,7 +92,7 @@
 }
 .left_pane {
     -fx-focus-color: transparent;
-    -fx-background-color: #E9EFF2;
+    -fx-background-color: #EBF2F7;
     -fx-width: 1500;
     -fx-height: 800;
 }
@@ -104,7 +104,7 @@
 }
 
 .left_pane_outer {
-    -fx-background: #E9EFF2;
+    -fx-background: #EBF2F7;
     -fx-focus-color: transparent;
 }
 
