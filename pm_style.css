@@ -1,0 +1,110 @@
+/* 
+    This style sheet stylizes the controls inside our
+    Web Page Maker JavaFX application. Note that controls
+    in the UI must have the same class as those below in 
+    order to be rendered using those properties.
+
+    Author:	Richard McKenna
+    Author:	?
+    Version:	1.0
+*/
+
+.class_diagram_pane {
+    -fx-background-color: white; 
+    -fx-grid-lines-visible: true;
+}
+
+// CSS CLASS FOR PAGE EDITING BUTTONS
+.tag_button {
+    -fx-background-color: 
+        linear-gradient(#ffd65b, #e68400),
+        linear-gradient(#ffef84, #f2ba44),
+        linear-gradient(#ffea6a, #efaa22),
+        linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+}
+
+
+// CSS CLASS FOR OUR BIG PANES
+.bordered_pane {
+    -fx-background-color: #FFF5F2;
+}
+.topPane_border {
+    -fx-border-width: 1px;
+    -fx-border-color: #EBC3C3;
+    -fx-background-color: #FFF5F2;
+}
+
+.hbox_variables {
+    -fx-padding: 5px;
+    -fx-background-color: #FFF5F2;
+    -fx-border-width: 1px;
+    -fx-border-color: #EBC3C3;
+}
+
+
+
+.variable_textfields {
+    -fx-width: 20px;
+}
+.border {
+    -fx-border-width: 1px;
+    -fx-border-color: black;
+}
+
+.label {
+    -fx-padding: 5px;
+}
+.button, .check-box *.box{
+    -fx-background-color: #FFFFFF;
+    -fx-border-width: 1px;
+    -fx-border-color: #A6A6A6;
+    -fx-border-radius: 5px;
+}
+
+.button:hover {
+    -fx-border-color: #7A7A7A;
+}
+
+.checkbox_pane {
+    -fx-padding: 3 10 3 10;
+}
+.text-field, .text-area {
+    -fx-focus-color: transparent;
+}
+
+.prompt_text_field {
+    -fx-font-size: 13pt;
+}
+
+.hbox_variable_header {
+    -fx-background-color: #E9EFF2;
+    -fx-padding: 5px;
+    -fx-font-size: 11pt;
+    -fx-border-width: 1px;
+    -fx-border-color: #DFECF2;
+}
+.left_pane {
+    -fx-focus-color: transparent;
+    -fx-background-color: #E9EFF2;
+    -fx-width: 1500;
+    -fx-height: 800;
+}
+
+.left_pane_grid {
+    -fx-background-color: #FFFFFF,
+        linear-gradient(from 0.5px 0px to 5.5px 0px, repeat, #CCCCCC 5%, transparent 5%),
+        linear-gradient(from 0px 0.5px to 0px 5.5px, repeat, #CCCCCC 5%, transparent 5%);   
+}
+
+.left_pane_outer {
+    -fx-background: #E9EFF2;
+    -fx-focus-color: transparent;
+}
+
